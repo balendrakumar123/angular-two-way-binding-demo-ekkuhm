@@ -1,0 +1,6 @@
+<div class="container">
+  <h3>Parent</h3>
+  <p>Number: {{ num }}</p>
+  <button (click)="increment()">Increment</button>
+  <app-child [(num)]="num"></app-child>
+</div>
